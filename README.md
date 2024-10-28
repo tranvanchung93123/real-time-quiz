@@ -69,5 +69,5 @@ The application consists of three main parts:
    cd ..
    node server.js
 
-This will start the backend server on http://localhost:5000.
+   This will start the backend server on `http://localhost:5000`.
 
