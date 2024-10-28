@@ -1,17 +1,56 @@
-# Getting Started with Real-time Quiz
+# Real-Time Quiz Application
 
-This project is real-time quiz app.
+This is a real-time vocabulary quiz application built using **React** for the frontend, **Node.js/Express** for the backend, and **Socket.io** for real-time communication. Users can join a quiz session, submit answers, and see real-time updates on the leaderboard.
 
+## Table of Contents
 
-![diagram](https://github.com/user-attachments/assets/aa956e3a-f0fa-46b9-8a2f-40fbefd906c9)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Future Improvements](#future-improvements)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run to install backend server:
+- Real-time quiz participation with unique `quiz_id` for each session.
+- Users can join a quiz session and answer questions.
+- Real-time score updates as users submit answers.
+- Real-time leaderboard displaying current standings of all participants.
 
-### `npm install`
+## Architecture
 
+The application consists of three main parts:
 
-To run backend server:
+1. **Frontend (React)**:
+   - Renders the quiz interface, allows users to join a quiz, answer questions, and view the leaderboard in real-time.
+   - Connects to the backend via HTTP for joining quizzes and via WebSocket for real-time updates.
+  
+2. **Backend (Node.js/Express + WebSocket Server)**:
+   - Handles HTTP requests for joining quizzes.
+   - Manages WebSocket events for real-time quiz updates and leaderboard functionality.
+   - Processes and updates user scores.
 
-### `npm run start`
+3. **WebSocket Server (Socket.io)**:
+   - Integrated into the backend for real-time communication.
+   - Handles events such as `quiz_data`, `submit_answer`, and `update_leaderboard`.
+
+## Technologies
+
+- **Frontend**: React, Socket.io-client
+- **Backend**: Node.js, Express, Socket.io
+- **Database**: Mock data using `quizData.js`
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** and **npm** installed on your machine.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/real-time-quiz-app.git
+   cd real-time-quiz-app
