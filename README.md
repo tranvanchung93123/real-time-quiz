@@ -61,4 +61,13 @@ The application consists of three main parts:
    
 3. **Navigate to the Frontend and Install Dependencies:**:
    ```bash
+   cd client
    npm install
+   
+4. **Run the Backend Server:**:
+   ```bash
+   cd ..
+   node server.js
+
+This will start the backend server on http://localhost:5000.
+
