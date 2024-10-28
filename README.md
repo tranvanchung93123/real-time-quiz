@@ -2,7 +2,8 @@
 
 This project is real-time quiz app.
 
-Diagram is [here](https://github.com/tranvanchung93123/real-time-quiz/blob/main/diagram.png)
+
+![diagram](https://github.com/user-attachments/assets/aa956e3a-f0fa-46b9-8a2f-40fbefd906c9)
 
 ## Available Scripts
 
