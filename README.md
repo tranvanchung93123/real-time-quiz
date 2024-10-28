@@ -69,5 +69,56 @@ The application consists of three main parts:
    cd ..
    node server.js
 
-   This will start the backend server on `http://localhost:5000`.
+This will start the backend server on `http://localhost:5000`.
+   
+5. **Run the Frontend Server:**:
+   ```bash
+   cd client
+   npm start
+
+
+This will start the React development server on `http://localhost:3000`.
+
+### Configuration
+If you need to change the backend or frontend URLs, make sure to update the configuration in both the frontend (e.g., `socket.js`) and backend.
+
+## Usage
+1. Open the frontend application in your browser at `http://localhost:3000`.
+2. Enter a User ID and Quiz ID to join a quiz session.
+3. Answer questions in real-time and see updates on the leaderboard.
+4. The leaderboard updates immediately as each participant submits their answers.
+
+
+## Project Structure
+```bash
+real-time-quiz-app/
+├── server.js                # Main server file (Node/Express/Socket.io)
+├── quizData.js              # Mock quiz data (used in backend)
+├── client/                  # React frontend
+│   ├── src/
+│   │   ├── App.js           # Main App component
+│   │   ├── Quiz.js          # Quiz component for answering questions
+│   │   ├── Leaderboard.js   # Leaderboard component
+│   │   ├── socket.js        # Shared WebSocket instance
+│   │   └── ...
+└── README.md
+```
+
+
+## Future Improvements
+
+- **Database Integration**: Replace mock data with a real database (e.g., MongoDB, PostgreSQL) for persistence.
+- **Authentication**: NodeAdd user authentication for secure access to quiz sessions.
+- **Enhanced Error Handling**: MockImprove error handling in both frontend and backend.
+- **Scaling**: MockUse Redis or another message broker to manage WebSocket connections for high-volume usage.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- **Socket.io** for real-time WebSocket support.
+- **React** for a powerful, interactive frontend framework.
+- **Express** for a simple, fast, and robust backend framework.
 
