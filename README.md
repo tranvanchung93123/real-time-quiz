@@ -54,3 +54,11 @@ The application consists of three main parts:
    ```bash
    git clone https://github.com/yourusername/real-time-quiz-app.git
    cd real-time-quiz-app
+   
+2. **Install Backend Dependencies:**:
+   ```bash
+   npm install
+   
+3. **Navigate to the Frontend and Install Dependencies:**:
+   ```bash
+   npm install
