@@ -23,6 +23,8 @@ This is a real-time vocabulary quiz application built using **React** for the fr
 
 The application consists of three main parts:
 
+![diagram](https://github.com/user-attachments/assets/a009efa2-0b7e-4bdd-994d-6c31fa0f5630)
+
 1. **Frontend (React)**:
    - Renders the quiz interface, allows users to join a quiz, answer questions, and view the leaderboard in real-time.
    - Connects to the backend via HTTP for joining quizzes and via WebSocket for real-time updates.
