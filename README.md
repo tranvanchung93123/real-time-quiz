@@ -57,27 +57,26 @@ The application consists of three main parts:
    git clone https://github.com/yourusername/real-time-quiz-app.git
    cd real-time-quiz-app
    
-2. **Install Backend Dependencies:**:
+2. **Install Backend Dependencies**:
    ```bash
    npm install
    
-3. **Navigate to the Frontend and Install Dependencies:**:
+3. **Navigate to the Frontend and Install Dependencies**:
    ```bash
    cd client
    npm install
    
-4. **Run the Backend Server:**:
+4. **Run the Backend Server**:
    ```bash
    cd ..
    node server.js
 
 This will start the backend server on `http://localhost:5000`.
    
-5. **Run the Frontend Server:**:
+5. **Run the Frontend Server**:
    ```bash
    cd client
    npm start
-
 
 This will start the React development server on `http://localhost:3000`.
 
