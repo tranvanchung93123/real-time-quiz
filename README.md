@@ -69,7 +69,7 @@ The application consists of three main parts:
 4. **Run the Backend Server**:
    ```bash
    cd ..
-   node server.js
+   node index.js
 
 This will start the backend server on `http://localhost:5000`.
    
