@@ -123,4 +123,3 @@ This project is licensed under the MIT License.
 - **React** for a powerful, interactive frontend framework.
 - **Express** for a simple, fast, and robust backend framework.
 - 
-
