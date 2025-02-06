@@ -1,5 +1,6 @@
 # Real-Time Quiz Application
 
+
 This is a real-time vocabulary quiz application built using **React** for the frontend, **Node.js/Express** for the backend, and **Socket.io** for real-time communication. Users can join a quiz session, submit answers, and see real-time updates on the leaderboard.
 
 ## Table of Contents
