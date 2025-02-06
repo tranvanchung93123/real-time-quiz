@@ -105,7 +105,6 @@ real-time-quiz-app/
 └── README.md
 ```
 
-
 ## Future Improvements
 
 - **Database Integration**: Replace mock data with a real database (e.g., MongoDB, PostgreSQL) for persistence.
